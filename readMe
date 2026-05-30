@@ -1,11 +1,21 @@
-//to install later
-
-pip install -r requirements.txt
-
-
 //create and activate virtual env
 python3 -m venv venv
 source venv/bin/activate  
 
+
+//to install later
+
+pip install -r requirements.txt
+
+//make sure the paper title column is the first on sheet
+
+
 //run the code
 python dup.py ./dup.csv   
+
+
+Steps
+//use the duplicate tool first
+//extarct the abstract and title
+//use the tas tool
+//insert other columns
